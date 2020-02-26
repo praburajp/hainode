@@ -34,7 +34,7 @@ app.post('/ccavResponseHandler', function (request, response){
         ccavResHandler.postRes(request, response);
 });
 
-const port = 4200;
+const port = 3000;
 const server = app.listen(port, function () {
   console.log('Listening on port ' + port);
 });  
